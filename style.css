@@ -1,0 +1,225 @@
+/*-- Fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Russo+One&display=swap');
+/*-\- Fonts -\-*/
+
+/*-- Defult Tags --*/
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+    color: white;
+	overflow-x: hidden;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    background: #222222;
+}
+
+ul { margin: 0; padding: 0; }
+
+a, button { transition: all 0.3s ease; 
+}
+
+button:focus { outline: none; 
+}
+
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a {	color: #FFF;  }
+
+h1,h2,h3 { font-weight: 300; }
+
+p:last-child { margin-bottom: 0; }
+/*-\- Defult Tags -\-*/
+
+
+
+/*-- Nav Bar --*/
+#tmMainNavToggle { display: none; }
+
+.sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    padding: 60px 50px;
+    cursor: default;
+    z-index: 100;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 1000;
+}
+
+.tm-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    padding: 50px 10%;
+    width: 100%;
+    position: relative;
+}
+
+.tm-main-nav { 
+    font-size: 1.6rem; 
+}
+
+.tm-main-nav li { 
+    list-style: none; 
+}
+
+.tm-main-nav a {
+    background-image: url(./images/nav-item.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    padding-bottom: 40px;
+    padding-right: 80px;
+}
+
+.tm-main-nav a:hover, .tm-main-nav a:focus, .tm-main-nav a.active {
+    background-image: url(./images/nav-item-highlight.png);
+    color: #33ccff;
+    text-decoration: none;    
+}
+
+.tm-main-nav a:hover .tm-nav-fa-icon, .tm-main-nav a:focus .tm-nav-fa-icon, .tm-main-nav a.active .tm-nav-fa-icon {
+    border-color: #33ccff;
+}
+
+
+
+
+
+/*-- Sizing --*/
+
+
+
+.tm-main {
+    height: 100%;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.tm-main-row {
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+
+/*-\- Nav Bar -\-*/
+
+/*-- Index --*/
+.index-content{
+    background: url(./images/car.png)
+}
+
+.mainHeader{
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+.solgan { font-size: 1.3rem; 
+    color: #ffba08;
+    padding-bottom: 30vh;
+    font-family: 'Raleway', sans-serif;
+}
+/*-\- Index -\-*/
+
+
+
+ /*-- About --*/                                 
+.contact-content{
+    background: url(./images/isle.jpg)
+    
+     
+}
+
+
+
+
+.tm-bg-transparent-black {
+    background-color: rgba(0,0,0,0.75);    
+    padding: 30px;
+}
+
+.aboutText{
+    color: #222222;
+    font: bold
+}
+
+
+.tm-icon-media {
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+
+/*-\- About -\-*/
+
+
+
+
+
+
+
+
+.tm-btn-submit {
+    border-radius: 0;
+    display: block;
+    padding: 15px 43px;
+}
+
+.tm-btn {
+    padding: 15px 50px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.tm-btn:hover,
+.tm-btn:focus {
+    color: #33ccff;
+    border-color: #33ccff;
+}
+
+
+address { font-size: 1rem; }
+.form-control { 
+    background: transparent;
+    border-color: white;
+    color: white;
+    font-weight: 300;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.form-control:focus {
+    background: transparent;
+    color: white;
+    border-color: #33ccff;
+    box-shadow: none;
+}
+
